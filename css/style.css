@@ -249,6 +249,22 @@ text-align: center;}
     box-shadow: var(--shadow);
 }
 
+.coursehighlights {
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: var(--shadow);
+}
+.coursehighlights i {
+    font-size:56px ; 
+    padding: 0px;   
+}
+
+#course-tiles{
+    padding-top: 0px;
+    padding-bottom: 16px;
+}
+
+
 .service h5 {
     margin-top: 24px;
     margin-bottom: 14px;
@@ -500,4 +516,39 @@ input.form-control {
 .form-control:focus {
     box-shadow: none;
     border-color: var(--brand);
+}
+
+/*--------------------------------------------------------------
+# WhatsApp bubble Icon
+--------------------------------------------------------------*/
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:200px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+}
+
+@media screen and (max-width: 767px){
+     .whatsapp-icon {
+	 margin-top:10px;
+     }
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 200px;
+        right: 10px;
+        font-size: 22px;
+    }
 }
